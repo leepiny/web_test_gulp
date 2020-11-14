@@ -87,6 +87,12 @@ a {
 .bg-primary {
   background: #AA0601; }
 
+.bg-dark {
+  background: #F2F2F2; }
+
+.text-primary {
+  color: #AA0601; }
+
 .text-light {
   color: white; }
 
@@ -274,6 +280,7 @@ a {
               align-items: center;
       margin-bottom: 8px; }
       .card .card-data li img {
+        width: 22px;
         margin-right: 12px; }
   .card h2 {
     padding: 12px 24px;
@@ -290,6 +297,147 @@ a {
   @media (max-width: 996px) {
     .map {
       width: 100%; } }
+
+.commodity .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: bold; }
+  @media (max-width: 996px) {
+    .commodity .options {
+      font-size: 18px;
+      line-height: px; } }
+  @media (max-width: 781px) {
+    .commodity .options {
+      line-height: 19px; } }
+  .commodity .options li {
+    width: 30%;
+    border: 1px solid #DCDCDC; }
+    @media (max-width: 996px) {
+      .commodity .options li {
+        width: 33.333%; } }
+    .commodity .options li a {
+      padding-top: 24px;
+      padding-bottom: 8px;
+      border-bottom: 16px solid transparent;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .commodity .options li a img {
+        margin-right: 5px; }
+    .commodity .options li a:hover {
+      border-bottom: 15px solid #AA0601; }
+    @media (max-width: 996px) {
+      .commodity .options li a {
+        border-bottom: 8px solid transparent; }
+      .commodity .options li a:hover {
+        border-bottom: 8px solid #AA0601; } }
+    @media (max-width: 781px) {
+      .commodity .options li a {
+        border-bottom: 4px solid transparent; }
+        .commodity .options li a img {
+          width: 3vmin; }
+      .commodity .options li a:hover {
+        border-bottom: 4px solid #AA0601; } }
+
+.commodity .showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 88px; }
+  .commodity .showcase li {
+    width: 49%; }
+    @media (max-width: 996px) {
+      .commodity .showcase li {
+        width: 50%; } }
+
+.commodity .productText {
+  margin-bottom: 40px; }
+  .commodity .productText h3 {
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center; }
+
+.commodity .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .commodity .product .product-item {
+    width: 24%;
+    margin-bottom: 104px; }
+    @media (max-width: 996px) {
+      .commodity .product .product-item {
+        width: 48%; } }
+    @media (max-width: 781px) {
+      .commodity .product .product-item {
+        width: 100%; } }
+    .commodity .product .product-item img {
+      width: 100%; }
+  .commodity .product .model {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 36px;
+    font-weight: bold; }
+
+.commodity .style-dark {
+  background: #5F3E2D; }
+
+.commodity .style-light {
+  background: #B75929; }
+
+.commodity .model-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.commodity .style-model {
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  margin-right: 4px; }
+
+.page {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 155px; }
+  .page li a {
+    padding: 15px;
+    color: black;
+    border: 1px solid #555555; }
+  .page li a:hover {
+    background: #000;
+    color: white; }
 
 .footer {
   padding: 30px 0; }
